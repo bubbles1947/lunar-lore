@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.header {
+    background-color: #2C3E50;
+    color: #ffffff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+.header nav a {
+    color: #ffffff;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.header h1 {
+    font-size: 2em;
+}
+
+.banner {
+    background: url('images/astrology-bg.jpg') no-repeat center center/cover;
+    color: #ffffff;
+    padding: 3em 0;
+    text-align: center;
+}
+
+.banner h2 {
+    font-size: 2.5em;
+}
+
+.banner p {
+    font-size: 1.2em;
+}
+
+.bulletin-board {
+    padding: 2em 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.bulletin-board h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+.news-list {
+    list-style: none;
+}
+
+.news-list li {
+    margin: 10px 0;
+}
+
+.news-list a {
+    color: #2C3E50;
+    text-decoration: none;
+}
+
+.news-list a:hover {
+    color: #E74C3C;
+}
+
+.store {
+    padding: 2em 0;
+    text-align: center;
+}
+
+.store h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.product {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 150px;
+}
+
+.product img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.product h3 {
+    margin-top: 10px;
+    font-size: 1.1em;
+}
+
+.footer {
+    background-color: #2C3E50;
+    color: #ffffff;
+    text-align: center;
+    padding: 1em 0;
+    font-size: 0.9em;
+}
